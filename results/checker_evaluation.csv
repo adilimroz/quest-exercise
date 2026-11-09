@@ -1,0 +1,6 @@
+fault_type,true_positive,false_positive,false_negative,precision,recall
+noise_offroad,89,0,0,1.000000,1.000000
+noise_speed,89,0,0,1.000000,1.000000
+duplicate_exact,119,0,0,1.000000,1.000000
+duplicate_conflict,60,0,0,1.000000,1.000000
+late,298,0,0,1.000000,1.000000

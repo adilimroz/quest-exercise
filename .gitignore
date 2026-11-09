@@ -1,0 +1,17 @@
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+
+# Private assessment instructions and working strategy
+/BUILD.md
+/REVISED_BUILD.md
+/ASSIGNMENT.md
+/PROJECT_SPEC.md
+/loom_script.md
+
+# Private assignment instructions and build playbook
+/BUILD.md
+/REVISED_BUILD.md
+/ASSIGNMENT.md

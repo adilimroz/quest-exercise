@@ -1,0 +1,656 @@
+ping_id,driver_id,fault_type,detail
+P0000032,DRV-001,noise_speed,on-road 900 m jump in five seconds
+P0000038,DRV-001,late,received 60–1800 seconds after event time
+P0000053,DRV-001,noise_speed,on-road 900 m jump in five seconds
+P0000055,DRV-001,duplicate_exact,exact copy; received 30 seconds after original
+P0000060,DRV-001,duplicate_exact,exact copy; received 28 seconds after original
+P0000065,DRV-001,duplicate_exact,exact copy; received 11 seconds after original
+P0000068,DRV-001,noise_offroad,500.0 m from nearest road
+P0000072,DRV-001,duplicate_exact,exact copy; received 26 seconds after original
+P0000074,DRV-001,noise_offroad,500.0 m from nearest road
+P0000081,DRV-001,duplicate_conflict,coordinate jitter 29.7 m
+P0000087,DRV-001,noise_offroad,500.0 m from nearest road
+P0000094,DRV-001,duplicate_conflict,coordinate jitter 21.0 m
+P0000095,DRV-001,duplicate_exact,exact copy; received 19 seconds after original
+P0000107,DRV-004,noise_offroad,500.0 m from nearest road
+P0000116,DRV-001,duplicate_exact,exact copy; received 4 seconds after original
+P0000137,DRV-004,late,received 60–1800 seconds after event time
+P0000150,DRV-001,late,received 60–1800 seconds after event time
+P0000152,DRV-004,duplicate_exact,exact copy; received 30 seconds after original
+P0000179,DRV-001,noise_speed,on-road 900 m jump in five seconds
+P0000198,DRV-004,duplicate_exact,exact copy; received 15 seconds after original
+P0000205,DRV-004,noise_offroad,500.0 m from nearest road
+P0000210,DRV-001,noise_offroad,500.0 m from nearest road
+P0000221,DRV-001,late,received 60–1800 seconds after event time
+P0000226,DRV-001,noise_offroad,500.0 m from nearest road
+P0000244,DRV-001,duplicate_exact,exact copy; received 25 seconds after original
+P0000252,DRV-001,late,received 60–1800 seconds after event time
+P0000276,DRV-001,late,received 60–1800 seconds after event time
+P0000285,DRV-001,noise_offroad,500.0 m from nearest road
+P0000288,DRV-001,noise_offroad,500.0 m from nearest road
+P0000307,DRV-004,noise_speed,on-road 900 m jump in five seconds
+P0000313,DRV-004,late,received 60–1800 seconds after event time
+P0000316,DRV-004,noise_offroad,500.0 m from nearest road
+P0000331,DRV-004,noise_speed,on-road 900 m jump in five seconds
+P0000336,DRV-004,duplicate_conflict,coordinate jitter 21.1 m
+P0000340,DRV-004,late,received 60–1800 seconds after event time
+P0000343,DRV-001,duplicate_exact,exact copy; received 13 seconds after original
+P0000358,DRV-001,duplicate_exact,exact copy; received 12 seconds after original
+P0000375,DRV-004,duplicate_exact,exact copy; received 4 seconds after original
+P0000376,DRV-004,late,received 60–1800 seconds after event time
+P0000381,DRV-004,noise_offroad,500.0 m from nearest road
+P0000382,DRV-001,noise_speed,on-road 900 m jump in five seconds
+P0000401,DRV-001,duplicate_conflict,coordinate jitter 25.3 m
+P0000435,DRV-001,late,received 60–1800 seconds after event time
+P0000444,DRV-001,late,received 60–1800 seconds after event time
+P0000454,DRV-001,late,received 60–1800 seconds after event time
+P0000461,DRV-001,late,received 60–1800 seconds after event time
+P0000494,DRV-001,duplicate_exact,exact copy; received 17 seconds after original
+P0000508,DRV-001,duplicate_conflict,coordinate jitter 22.5 m
+P0000521,DRV-004,late,received 60–1800 seconds after event time
+P0000529,DRV-004,late,received 60–1800 seconds after event time
+P0000532,DRV-004,noise_speed,on-road 900 m jump in five seconds
+P0000543,DRV-004,late,received 60–1800 seconds after event time
+P0000546,DRV-004,noise_speed,on-road 900 m jump in five seconds
+P0000562,DRV-004,late,received 60–1800 seconds after event time
+P0000570,DRV-004,noise_speed,on-road 900 m jump in five seconds
+P0000586,DRV-004,late,received 60–1800 seconds after event time
+P0000590,DRV-001,duplicate_exact,exact copy; received 12 seconds after original
+P0000605,DRV-001,late,received 60–1800 seconds after event time
+P0000606,DRV-001,noise_offroad,500.0 m from nearest road
+P0000611,DRV-001,late,received 60–1800 seconds after event time
+P0000621,DRV-004,duplicate_conflict,coordinate jitter 14.8 m
+P0000628,DRV-004,duplicate_exact,exact copy; received 23 seconds after original
+P0000651,DRV-004,late,received 60–1800 seconds after event time
+P0000656,DRV-001,noise_offroad,500.0 m from nearest road
+P0000659,DRV-004,noise_offroad,500.0 m from nearest road
+P0000662,DRV-001,duplicate_exact,exact copy; received 17 seconds after original
+P0000682,DRV-004,late,received 60–1800 seconds after event time
+P0000691,DRV-004,noise_offroad,500.0 m from nearest road
+P0000706,DRV-001,late,received 60–1800 seconds after event time
+P0000707,DRV-004,duplicate_exact,exact copy; received 20 seconds after original
+P0000714,DRV-004,noise_offroad,500.0 m from nearest road
+P0000715,DRV-001,late,received 60–1800 seconds after event time
+P0000721,DRV-001,late,received 60–1800 seconds after event time
+P0000727,DRV-004,late,received 60–1800 seconds after event time
+P0000730,DRV-004,duplicate_conflict,coordinate jitter 6.2 m
+P0000745,DRV-001,late,received 60–1800 seconds after event time
+P0000753,DRV-004,late,received 60–1800 seconds after event time
+P0000755,DRV-004,late,received 60–1800 seconds after event time
+P0000761,DRV-004,late,received 60–1800 seconds after event time
+P0000765,DRV-004,late,received 60–1800 seconds after event time
+P0000767,DRV-001,late,received 60–1800 seconds after event time
+P0000768,DRV-004,late,received 60–1800 seconds after event time
+P0000769,DRV-001,late,received 60–1800 seconds after event time
+P0000770,DRV-001,late,received 60–1800 seconds after event time
+P0000771,DRV-004,late,received 60–1800 seconds after event time
+P0000773,DRV-003,duplicate_exact,exact copy; received 4 seconds after original
+P0000788,DRV-003,duplicate_conflict,coordinate jitter 5.7 m
+P0000797,DRV-003,noise_speed,on-road 900 m jump in five seconds
+P0000801,DRV-003,noise_offroad,500.0 m from nearest road
+P0000807,DRV-003,noise_speed,on-road 900 m jump in five seconds
+P0000811,DRV-003,duplicate_exact,exact copy; received 9 seconds after original
+P0000824,DRV-003,duplicate_conflict,coordinate jitter 28.8 m
+P0000832,DRV-003,late,received 60–1800 seconds after event time
+P0000835,DRV-003,noise_offroad,500.0 m from nearest road
+P0000840,DRV-003,noise_offroad,500.0 m from nearest road
+P0000848,DRV-003,duplicate_conflict,coordinate jitter 16.7 m
+P0000850,DRV-003,noise_offroad,500.0 m from nearest road
+P0000863,DRV-003,noise_offroad,500.0 m from nearest road
+P0000866,DRV-003,noise_speed,on-road 900 m jump in five seconds
+P0000885,DRV-003,noise_offroad,500.0 m from nearest road
+P0000889,DRV-003,late,received 60–1800 seconds after event time
+P0000903,DRV-003,noise_speed,on-road 900 m jump in five seconds
+P0000914,DRV-003,noise_offroad,500.0 m from nearest road
+P0000919,DRV-003,noise_speed,on-road 900 m jump in five seconds
+P0000934,DRV-003,noise_speed,on-road 900 m jump in five seconds
+P0000938,DRV-003,duplicate_conflict,coordinate jitter 9.1 m
+P0000942,DRV-003,late,received 60–1800 seconds after event time
+P0000943,DRV-003,noise_speed,on-road 900 m jump in five seconds
+P0000958,DRV-003,duplicate_conflict,coordinate jitter 27.1 m
+P0000960,DRV-003,late,received 60–1800 seconds after event time
+P0000963,DRV-003,late,received 60–1800 seconds after event time
+P0000977,DRV-003,duplicate_exact,exact copy; received 20 seconds after original
+P0000998,DRV-003,duplicate_conflict,coordinate jitter 20.6 m
+P0001024,DRV-003,noise_offroad,500.0 m from nearest road
+P0001044,DRV-003,noise_offroad,500.0 m from nearest road
+P0001060,DRV-003,late,received 60–1800 seconds after event time
+P0001061,DRV-003,noise_offroad,500.0 m from nearest road
+P0001065,DRV-003,noise_offroad,500.0 m from nearest road
+P0001084,DRV-003,late,received 60–1800 seconds after event time
+P0001088,DRV-003,noise_speed,on-road 900 m jump in five seconds
+P0001110,DRV-003,late,received 60–1800 seconds after event time
+P0001112,DRV-003,late,received 60–1800 seconds after event time
+P0001130,DRV-003,duplicate_exact,exact copy; received 29 seconds after original
+P0001144,DRV-003,late,received 60–1800 seconds after event time
+P0001153,DRV-003,late,received 60–1800 seconds after event time
+P0001157,DRV-003,late,received 60–1800 seconds after event time
+P0001158,DRV-003,late,received 60–1800 seconds after event time
+P0001159,DRV-003,late,received 60–1800 seconds after event time
+P0001160,DRV-003,late,received 60–1800 seconds after event time
+P0001161,DRV-003,late,received 60–1800 seconds after event time
+P0001171,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0001238,DRV-005,duplicate_exact,exact copy; received 28 seconds after original
+P0001247,DRV-005,duplicate_conflict,coordinate jitter 22.7 m
+P0001255,DRV-005,duplicate_exact,exact copy; received 21 seconds after original
+P0001257,DRV-005,duplicate_conflict,coordinate jitter 27.9 m
+P0001264,DRV-005,duplicate_conflict,coordinate jitter 14.6 m
+P0001266,DRV-005,duplicate_exact,exact copy; received 15 seconds after original
+P0001274,DRV-005,duplicate_conflict,coordinate jitter 9.7 m
+P0001278,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0001281,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0001283,DRV-005,noise_offroad,500.0 m from nearest road
+P0001290,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0001339,DRV-005,late,received 60–1800 seconds after event time
+P0001340,DRV-005,late,received 60–1800 seconds after event time
+P0001350,DRV-005,late,received 60–1800 seconds after event time
+P0001362,DRV-005,late,received 60–1800 seconds after event time
+P0001370,DRV-005,late,received 60–1800 seconds after event time
+P0001377,DRV-005,duplicate_exact,exact copy; received 15 seconds after original
+P0001380,DRV-005,duplicate_conflict,coordinate jitter 23.6 m
+P0001382,DRV-005,noise_offroad,500.0 m from nearest road
+P0001384,DRV-005,late,received 60–1800 seconds after event time
+P0001392,DRV-005,late,received 60–1800 seconds after event time
+P0001401,DRV-005,duplicate_exact,exact copy; received 1 seconds after original
+P0001405,DRV-005,noise_offroad,500.0 m from nearest road
+P0001409,DRV-005,late,received 60–1800 seconds after event time
+P0001412,DRV-005,duplicate_exact,exact copy; received 16 seconds after original
+P0001422,DRV-005,late,received 60–1800 seconds after event time
+P0001426,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0001442,DRV-005,late,received 60–1800 seconds after event time
+P0001446,DRV-005,late,received 60–1800 seconds after event time
+P0001447,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0001455,DRV-005,late,received 60–1800 seconds after event time
+P0001469,DRV-005,late,received 60–1800 seconds after event time
+P0001470,DRV-005,duplicate_exact,exact copy; received 9 seconds after original
+P0001472,DRV-005,duplicate_conflict,coordinate jitter 13.9 m
+P0001477,DRV-005,late,received 60–1800 seconds after event time
+P0001492,DRV-005,duplicate_exact,exact copy; received 13 seconds after original
+P0001506,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0001519,DRV-005,late,received 60–1800 seconds after event time
+P0001527,DRV-005,duplicate_exact,exact copy; received 17 seconds after original
+P0001528,DRV-005,late,received 60–1800 seconds after event time
+P0001530,DRV-005,duplicate_exact,exact copy; received 11 seconds after original
+P0001533,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0001537,DRV-005,late,received 60–1800 seconds after event time
+P0001546,DRV-005,late,received 60–1800 seconds after event time
+P0001547,DRV-005,late,received 60–1800 seconds after event time
+P0001548,DRV-005,late,received 60–1800 seconds after event time
+P0001549,DRV-005,late,received 60–1800 seconds after event time
+P0001596,DRV-002,noise_offroad,500.0 m from nearest road
+P0001611,DRV-002,duplicate_exact,exact copy; received 14 seconds after original
+P0001657,DRV-005,duplicate_exact,exact copy; received 4 seconds after original
+P0001661,DRV-002,duplicate_conflict,coordinate jitter 20.4 m
+P0001678,DRV-002,duplicate_conflict,coordinate jitter 8.2 m
+P0001681,DRV-002,late,received 60–1800 seconds after event time
+P0001694,DRV-002,noise_speed,on-road 900 m jump in five seconds
+P0001701,DRV-002,late,received 60–1800 seconds after event time
+P0001706,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0001708,DRV-002,late,received 60–1800 seconds after event time
+P0001712,DRV-002,late,received 60–1800 seconds after event time
+P0001725,DRV-002,noise_offroad,500.0 m from nearest road
+P0001734,DRV-002,late,received 60–1800 seconds after event time
+P0001765,DRV-002,late,received 60–1800 seconds after event time
+P0001796,DRV-005,duplicate_exact,exact copy; received 30 seconds after original
+P0001799,DRV-002,duplicate_conflict,coordinate jitter 15.9 m
+P0001802,DRV-005,noise_offroad,500.0 m from nearest road
+P0001805,DRV-002,duplicate_exact,exact copy; received 4 seconds after original
+P0001810,DRV-002,late,received 60–1800 seconds after event time
+P0001825,DRV-002,late,received 60–1800 seconds after event time
+P0001832,DRV-002,noise_speed,on-road 900 m jump in five seconds
+P0001848,DRV-002,late,received 60–1800 seconds after event time
+P0001849,DRV-002,late,received 60–1800 seconds after event time
+P0001854,DRV-005,duplicate_exact,exact copy; received 10 seconds after original
+P0001877,DRV-002,duplicate_exact,exact copy; received 17 seconds after original
+P0001906,DRV-002,late,received 60–1800 seconds after event time
+P0001912,DRV-005,late,received 60–1800 seconds after event time
+P0001916,DRV-002,noise_speed,on-road 900 m jump in five seconds
+P0001924,DRV-005,duplicate_exact,exact copy; received 13 seconds after original
+P0001931,DRV-002,late,received 60–1800 seconds after event time
+P0001936,DRV-002,late,received 60–1800 seconds after event time
+P0001944,DRV-005,late,received 60–1800 seconds after event time
+P0001951,DRV-002,late,received 60–1800 seconds after event time
+P0001976,DRV-005,duplicate_exact,exact copy; received 20 seconds after original
+P0001977,DRV-005,duplicate_exact,exact copy; received 9 seconds after original
+P0001997,DRV-005,late,received 60–1800 seconds after event time
+P0002009,DRV-005,late,received 60–1800 seconds after event time
+P0002010,DRV-002,noise_speed,on-road 900 m jump in five seconds
+P0002014,DRV-005,late,received 60–1800 seconds after event time
+P0002017,DRV-002,duplicate_exact,exact copy; received 27 seconds after original
+P0002019,DRV-002,duplicate_exact,exact copy; received 18 seconds after original
+P0002025,DRV-002,late,received 60–1800 seconds after event time
+P0002029,DRV-002,late,received 60–1800 seconds after event time
+P0002056,DRV-005,late,received 60–1800 seconds after event time
+P0002062,DRV-002,noise_offroad,500.0 m from nearest road
+P0002064,DRV-002,late,received 60–1800 seconds after event time
+P0002070,DRV-002,late,received 60–1800 seconds after event time
+P0002087,DRV-002,duplicate_conflict,coordinate jitter 5.6 m
+P0002109,DRV-005,late,received 60–1800 seconds after event time
+P0002110,DRV-002,late,received 60–1800 seconds after event time
+P0002111,DRV-002,late,received 60–1800 seconds after event time
+P0002112,DRV-002,late,received 60–1800 seconds after event time
+P0002113,DRV-005,late,received 60–1800 seconds after event time
+P0002114,DRV-002,late,received 60–1800 seconds after event time
+P0002115,DRV-002,late,received 60–1800 seconds after event time
+P0002127,DRV-001,noise_speed,on-road 900 m jump in five seconds
+P0002133,DRV-001,duplicate_exact,exact copy; received 4 seconds after original
+P0002153,DRV-001,noise_speed,on-road 900 m jump in five seconds
+P0002172,DRV-001,duplicate_conflict,coordinate jitter 18.6 m
+P0002176,DRV-001,noise_offroad,500.0 m from nearest road
+P0002182,DRV-001,duplicate_exact,exact copy; received 28 seconds after original
+P0002231,DRV-001,noise_speed,on-road 900 m jump in five seconds
+P0002238,DRV-001,duplicate_exact,exact copy; received 21 seconds after original
+P0002252,DRV-004,noise_offroad,500.0 m from nearest road
+P0002264,DRV-004,duplicate_exact,exact copy; received 8 seconds after original
+P0002273,DRV-001,late,received 60–1800 seconds after event time
+P0002276,DRV-001,late,received 60–1800 seconds after event time
+P0002283,DRV-004,late,received 60–1800 seconds after event time
+P0002288,DRV-001,noise_offroad,500.0 m from nearest road
+P0002299,DRV-001,late,received 60–1800 seconds after event time
+P0002302,DRV-004,noise_offroad,500.0 m from nearest road
+P0002308,DRV-004,duplicate_conflict,coordinate jitter 25.4 m
+P0002311,DRV-001,late,received 60–1800 seconds after event time
+P0002322,DRV-004,duplicate_exact,exact copy; received 18 seconds after original
+P0002347,DRV-004,noise_speed,on-road 900 m jump in five seconds
+P0002352,DRV-001,noise_speed,on-road 900 m jump in five seconds
+P0002355,DRV-004,late,received 60–1800 seconds after event time
+P0002379,DRV-004,noise_speed,on-road 900 m jump in five seconds
+P0002387,DRV-004,noise_offroad,500.0 m from nearest road
+P0002388,DRV-001,duplicate_exact,exact copy; received 26 seconds after original
+P0002393,DRV-004,late,received 60–1800 seconds after event time
+P0002396,DRV-001,late,received 60–1800 seconds after event time
+P0002398,DRV-004,late,received 60–1800 seconds after event time
+P0002424,DRV-001,late,received 60–1800 seconds after event time
+P0002428,DRV-004,late,received 60–1800 seconds after event time
+P0002450,DRV-004,late,received 60–1800 seconds after event time
+P0002471,DRV-001,late,received 60–1800 seconds after event time
+P0002472,DRV-004,late,received 60–1800 seconds after event time
+P0002476,DRV-001,late,received 60–1800 seconds after event time
+P0002488,DRV-001,noise_speed,on-road 900 m jump in five seconds
+P0002489,DRV-001,late,received 60–1800 seconds after event time
+P0002495,DRV-004,duplicate_exact,exact copy; received 20 seconds after original
+P0002512,DRV-001,late,received 60–1800 seconds after event time
+P0002516,DRV-001,noise_offroad,500.0 m from nearest road
+P0002521,DRV-004,noise_offroad,500.0 m from nearest road
+P0002528,DRV-001,noise_offroad,500.0 m from nearest road
+P0002568,DRV-004,late,received 60–1800 seconds after event time
+P0002571,DRV-004,late,received 60–1800 seconds after event time
+P0002603,DRV-004,noise_speed,on-road 900 m jump in five seconds
+P0002609,DRV-004,late,received 60–1800 seconds after event time
+P0002627,DRV-001,noise_speed,on-road 900 m jump in five seconds
+P0002654,DRV-004,late,received 60–1800 seconds after event time
+P0002675,DRV-001,late,received 60–1800 seconds after event time
+P0002685,DRV-004,late,received 60–1800 seconds after event time
+P0002703,DRV-001,duplicate_conflict,coordinate jitter 20.8 m
+P0002723,DRV-004,late,received 60–1800 seconds after event time
+P0002740,DRV-004,noise_offroad,500.0 m from nearest road
+P0002749,DRV-001,noise_speed,on-road 900 m jump in five seconds
+P0002754,DRV-004,late,received 60–1800 seconds after event time
+P0002762,DRV-001,late,received 60–1800 seconds after event time
+P0002771,DRV-004,noise_offroad,500.0 m from nearest road
+P0002777,DRV-004,late,received 60–1800 seconds after event time
+P0002793,DRV-004,noise_speed,on-road 900 m jump in five seconds
+P0002800,DRV-004,late,received 60–1800 seconds after event time
+P0002801,DRV-004,noise_offroad,500.0 m from nearest road
+P0002806,DRV-004,noise_offroad,500.0 m from nearest road
+P0002807,DRV-004,late,received 60–1800 seconds after event time
+P0002810,DRV-001,late,received 60–1800 seconds after event time
+P0002822,DRV-004,late,received 60–1800 seconds after event time
+P0002834,DRV-004,late,received 60–1800 seconds after event time
+P0002841,DRV-004,late,received 60–1800 seconds after event time
+P0002861,DRV-001,late,received 60–1800 seconds after event time
+P0002865,DRV-004,late,received 60–1800 seconds after event time
+P0002868,DRV-004,late,received 60–1800 seconds after event time
+P0002869,DRV-001,late,received 60–1800 seconds after event time
+P0002870,DRV-004,late,received 60–1800 seconds after event time
+P0002883,DRV-003,noise_speed,on-road 900 m jump in five seconds
+P0002889,DRV-003,noise_speed,on-road 900 m jump in five seconds
+P0002905,DRV-003,noise_speed,on-road 900 m jump in five seconds
+P0002907,DRV-003,noise_offroad,500.0 m from nearest road
+P0002937,DRV-003,late,received 60–1800 seconds after event time
+P0002954,DRV-003,duplicate_exact,exact copy; received 6 seconds after original
+P0002956,DRV-003,late,received 60–1800 seconds after event time
+P0002958,DRV-003,noise_speed,on-road 900 m jump in five seconds
+P0002969,DRV-003,duplicate_exact,exact copy; received 14 seconds after original
+P0002971,DRV-003,late,received 60–1800 seconds after event time
+P0002977,DRV-003,noise_speed,on-road 900 m jump in five seconds
+P0002979,DRV-003,duplicate_conflict,coordinate jitter 6.8 m
+P0002988,DRV-003,late,received 60–1800 seconds after event time
+P0002991,DRV-003,noise_speed,on-road 900 m jump in five seconds
+P0002992,DRV-003,late,received 60–1800 seconds after event time
+P0002994,DRV-003,late,received 60–1800 seconds after event time
+P0003034,DRV-003,late,received 60–1800 seconds after event time
+P0003037,DRV-003,late,received 60–1800 seconds after event time
+P0003050,DRV-003,noise_speed,on-road 900 m jump in five seconds
+P0003055,DRV-003,late,received 60–1800 seconds after event time
+P0003076,DRV-003,late,received 60–1800 seconds after event time
+P0003078,DRV-003,late,received 60–1800 seconds after event time
+P0003083,DRV-003,late,received 60–1800 seconds after event time
+P0003105,DRV-003,late,received 60–1800 seconds after event time
+P0003110,DRV-003,noise_offroad,500.0 m from nearest road
+P0003138,DRV-003,duplicate_exact,exact copy; received 7 seconds after original
+P0003157,DRV-003,duplicate_exact,exact copy; received 15 seconds after original
+P0003169,DRV-003,duplicate_exact,exact copy; received 19 seconds after original
+P0003177,DRV-003,late,received 60–1800 seconds after event time
+P0003198,DRV-003,noise_offroad,500.0 m from nearest road
+P0003218,DRV-003,late,received 60–1800 seconds after event time
+P0003234,DRV-003,noise_speed,on-road 900 m jump in five seconds
+P0003237,DRV-003,duplicate_conflict,coordinate jitter 12.1 m
+P0003244,DRV-003,duplicate_exact,exact copy; received 7 seconds after original
+P0003247,DRV-003,noise_offroad,500.0 m from nearest road
+P0003250,DRV-003,duplicate_exact,exact copy; received 7 seconds after original
+P0003252,DRV-003,late,received 60–1800 seconds after event time
+P0003268,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0003277,DRV-005,duplicate_exact,exact copy; received 14 seconds after original
+P0003280,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0003288,DRV-005,duplicate_conflict,coordinate jitter 21.2 m
+P0003324,DRV-005,late,received 60–1800 seconds after event time
+P0003343,DRV-005,late,received 60–1800 seconds after event time
+P0003347,DRV-005,late,received 60–1800 seconds after event time
+P0003350,DRV-005,late,received 60–1800 seconds after event time
+P0003355,DRV-005,late,received 60–1800 seconds after event time
+P0003361,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0003363,DRV-005,noise_offroad,500.0 m from nearest road
+P0003370,DRV-005,duplicate_exact,exact copy; received 4 seconds after original
+P0003374,DRV-005,late,received 60–1800 seconds after event time
+P0003399,DRV-005,late,received 60–1800 seconds after event time
+P0003404,DRV-005,duplicate_exact,exact copy; received 13 seconds after original
+P0003410,DRV-005,noise_offroad,500.0 m from nearest road
+P0003415,DRV-005,late,received 60–1800 seconds after event time
+P0003441,DRV-005,late,received 60–1800 seconds after event time
+P0003449,DRV-005,duplicate_exact,exact copy; received 8 seconds after original
+P0003451,DRV-005,late,received 60–1800 seconds after event time
+P0003463,DRV-005,late,received 60–1800 seconds after event time
+P0003466,DRV-005,late,received 60–1800 seconds after event time
+P0003469,DRV-005,duplicate_exact,exact copy; received 27 seconds after original
+P0003495,DRV-005,late,received 60–1800 seconds after event time
+P0003500,DRV-005,duplicate_conflict,coordinate jitter 10.1 m
+P0003517,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0003523,DRV-005,duplicate_exact,exact copy; received 21 seconds after original
+P0003533,DRV-005,late,received 60–1800 seconds after event time
+P0003542,DRV-005,duplicate_exact,exact copy; received 20 seconds after original
+P0003550,DRV-005,late,received 60–1800 seconds after event time
+P0003556,DRV-005,late,received 60–1800 seconds after event time
+P0003595,DRV-005,late,received 60–1800 seconds after event time
+P0003602,DRV-005,late,received 60–1800 seconds after event time
+P0003608,DRV-005,duplicate_conflict,coordinate jitter 17.6 m
+P0003613,DRV-005,duplicate_conflict,coordinate jitter 23.5 m
+P0003614,DRV-005,late,received 60–1800 seconds after event time
+P0003618,DRV-005,duplicate_exact,exact copy; received 28 seconds after original
+P0003623,DRV-005,late,received 60–1800 seconds after event time
+P0003626,DRV-005,late,received 60–1800 seconds after event time
+P0003629,DRV-005,late,received 60–1800 seconds after event time
+P0003630,DRV-005,late,received 60–1800 seconds after event time
+P0003631,DRV-005,late,received 60–1800 seconds after event time
+P0003644,DRV-002,late,received 60–1800 seconds after event time
+P0003675,DRV-002,late,received 60–1800 seconds after event time
+P0003681,DRV-002,noise_speed,on-road 900 m jump in five seconds
+P0003691,DRV-002,duplicate_exact,exact copy; received 23 seconds after original
+P0003693,DRV-002,late,received 60–1800 seconds after event time
+P0003710,DRV-002,duplicate_exact,exact copy; received 1 seconds after original
+P0003714,DRV-002,late,received 60–1800 seconds after event time
+P0003736,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0003758,DRV-002,noise_speed,on-road 900 m jump in five seconds
+P0003764,DRV-002,noise_offroad,500.0 m from nearest road
+P0003781,DRV-005,noise_offroad,500.0 m from nearest road
+P0003788,DRV-005,noise_offroad,500.0 m from nearest road
+P0003828,DRV-002,late,received 60–1800 seconds after event time
+P0003838,DRV-002,late,received 60–1800 seconds after event time
+P0003841,DRV-005,late,received 60–1800 seconds after event time
+P0003850,DRV-002,late,received 60–1800 seconds after event time
+P0003855,DRV-002,noise_speed,on-road 900 m jump in five seconds
+P0003876,DRV-005,duplicate_exact,exact copy; received 6 seconds after original
+P0003892,DRV-002,duplicate_exact,exact copy; received 21 seconds after original
+P0003904,DRV-002,late,received 60–1800 seconds after event time
+P0003905,DRV-002,late,received 60–1800 seconds after event time
+P0003912,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0003913,DRV-002,late,received 60–1800 seconds after event time
+P0003914,DRV-002,duplicate_conflict,coordinate jitter 12.4 m
+P0003917,DRV-005,duplicate_conflict,coordinate jitter 15.7 m
+P0003918,DRV-002,duplicate_exact,exact copy; received 18 seconds after original
+P0003925,DRV-005,late,received 60–1800 seconds after event time
+P0003936,DRV-002,late,received 60–1800 seconds after event time
+P0003969,DRV-005,duplicate_exact,exact copy; received 9 seconds after original
+P0003972,DRV-002,late,received 60–1800 seconds after event time
+P0003973,DRV-005,late,received 60–1800 seconds after event time
+P0003982,DRV-002,noise_offroad,500.0 m from nearest road
+P0003990,DRV-005,noise_offroad,500.0 m from nearest road
+P0004005,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0004015,DRV-002,duplicate_conflict,coordinate jitter 11.9 m
+P0004037,DRV-005,late,received 60–1800 seconds after event time
+P0004042,DRV-002,duplicate_exact,exact copy; received 21 seconds after original
+P0004051,DRV-005,late,received 60–1800 seconds after event time
+P0004057,DRV-005,noise_offroad,500.0 m from nearest road
+P0004062,DRV-002,late,received 60–1800 seconds after event time
+P0004063,DRV-005,duplicate_exact,exact copy; received 20 seconds after original
+P0004076,DRV-002,late,received 60–1800 seconds after event time
+P0004090,DRV-002,late,received 60–1800 seconds after event time
+P0004094,DRV-002,noise_speed,on-road 900 m jump in five seconds
+P0004096,DRV-002,late,received 60–1800 seconds after event time
+P0004104,DRV-005,late,received 60–1800 seconds after event time
+P0004122,DRV-002,noise_offroad,500.0 m from nearest road
+P0004125,DRV-002,late,received 60–1800 seconds after event time
+P0004127,DRV-002,duplicate_exact,exact copy; received 30 seconds after original
+P0004133,DRV-002,duplicate_exact,exact copy; received 20 seconds after original
+P0004137,DRV-002,late,received 60–1800 seconds after event time
+P0004153,DRV-002,duplicate_conflict,coordinate jitter 8.5 m
+P0004157,DRV-002,noise_speed,on-road 900 m jump in five seconds
+P0004160,DRV-002,noise_offroad,500.0 m from nearest road
+P0004168,DRV-002,noise_offroad,500.0 m from nearest road
+P0004172,DRV-005,late,received 60–1800 seconds after event time
+P0004187,DRV-002,noise_speed,on-road 900 m jump in five seconds
+P0004193,DRV-002,late,received 60–1800 seconds after event time
+P0004194,DRV-002,duplicate_exact,exact copy; received 28 seconds after original
+P0004198,DRV-002,duplicate_conflict,coordinate jitter 14.8 m
+P0004203,DRV-002,noise_offroad,500.0 m from nearest road
+P0004204,DRV-005,late,received 60–1800 seconds after event time
+P0004205,DRV-005,late,received 60–1800 seconds after event time
+P0004206,DRV-002,late,received 60–1800 seconds after event time
+P0004207,DRV-002,late,received 60–1800 seconds after event time
+P0004208,DRV-002,late,received 60–1800 seconds after event time
+P0004235,DRV-001,late,received 60–1800 seconds after event time
+P0004277,DRV-001,noise_offroad,500.0 m from nearest road
+P0004293,DRV-001,duplicate_exact,exact copy; received 8 seconds after original
+P0004299,DRV-001,late,received 60–1800 seconds after event time
+P0004331,DRV-001,duplicate_exact,exact copy; received 25 seconds after original
+P0004336,DRV-004,duplicate_exact,exact copy; received 4 seconds after original
+P0004345,DRV-004,noise_offroad,500.0 m from nearest road
+P0004352,DRV-004,duplicate_exact,exact copy; received 17 seconds after original
+P0004359,DRV-004,noise_speed,on-road 900 m jump in five seconds
+P0004362,DRV-004,noise_offroad,500.0 m from nearest road
+P0004369,DRV-004,noise_offroad,500.0 m from nearest road
+P0004384,DRV-001,noise_speed,on-road 900 m jump in five seconds
+P0004391,DRV-001,late,received 60–1800 seconds after event time
+P0004393,DRV-001,noise_speed,on-road 900 m jump in five seconds
+P0004448,DRV-001,late,received 60–1800 seconds after event time
+P0004449,DRV-004,duplicate_exact,exact copy; received 9 seconds after original
+P0004457,DRV-004,duplicate_conflict,coordinate jitter 10.6 m
+P0004458,DRV-004,duplicate_conflict,coordinate jitter 22.8 m
+P0004469,DRV-001,duplicate_exact,exact copy; received 4 seconds after original
+P0004498,DRV-001,duplicate_exact,exact copy; received 4 seconds after original
+P0004520,DRV-001,duplicate_conflict,coordinate jitter 15.3 m
+P0004545,DRV-004,duplicate_conflict,coordinate jitter 21.5 m
+P0004552,DRV-001,duplicate_conflict,coordinate jitter 5.2 m
+P0004560,DRV-001,late,received 60–1800 seconds after event time
+P0004563,DRV-001,noise_speed,on-road 900 m jump in five seconds
+P0004568,DRV-001,noise_speed,on-road 900 m jump in five seconds
+P0004571,DRV-004,noise_speed,on-road 900 m jump in five seconds
+P0004597,DRV-004,late,received 60–1800 seconds after event time
+P0004600,DRV-001,noise_speed,on-road 900 m jump in five seconds
+P0004604,DRV-001,late,received 60–1800 seconds after event time
+P0004624,DRV-001,duplicate_exact,exact copy; received 29 seconds after original
+P0004634,DRV-004,late,received 60–1800 seconds after event time
+P0004645,DRV-004,late,received 60–1800 seconds after event time
+P0004653,DRV-001,duplicate_exact,exact copy; received 9 seconds after original
+P0004681,DRV-001,noise_offroad,500.0 m from nearest road
+P0004683,DRV-004,late,received 60–1800 seconds after event time
+P0004684,DRV-004,late,received 60–1800 seconds after event time
+P0004688,DRV-001,late,received 60–1800 seconds after event time
+P0004727,DRV-001,noise_speed,on-road 900 m jump in five seconds
+P0004730,DRV-001,late,received 60–1800 seconds after event time
+P0004743,DRV-001,late,received 60–1800 seconds after event time
+P0004758,DRV-001,noise_offroad,500.0 m from nearest road
+P0004774,DRV-004,duplicate_exact,exact copy; received 16 seconds after original
+P0004787,DRV-004,late,received 60–1800 seconds after event time
+P0004796,DRV-001,noise_offroad,500.0 m from nearest road
+P0004806,DRV-004,late,received 60–1800 seconds after event time
+P0004816,DRV-001,noise_speed,on-road 900 m jump in five seconds
+P0004823,DRV-001,duplicate_exact,exact copy; received 2 seconds after original
+P0004854,DRV-001,duplicate_conflict,coordinate jitter 8.8 m
+P0004867,DRV-001,duplicate_exact,exact copy; received 27 seconds after original
+P0004871,DRV-004,late,received 60–1800 seconds after event time
+P0004874,DRV-004,late,received 60–1800 seconds after event time
+P0004883,DRV-004,late,received 60–1800 seconds after event time
+P0004886,DRV-001,late,received 60–1800 seconds after event time
+P0004895,DRV-001,late,received 60–1800 seconds after event time
+P0004908,DRV-004,duplicate_conflict,coordinate jitter 25.5 m
+P0004913,DRV-004,late,received 60–1800 seconds after event time
+P0004928,DRV-004,duplicate_exact,exact copy; received 4 seconds after original
+P0004945,DRV-001,late,received 60–1800 seconds after event time
+P0004959,DRV-004,late,received 60–1800 seconds after event time
+P0004960,DRV-001,late,received 60–1800 seconds after event time
+P0004961,DRV-001,late,received 60–1800 seconds after event time
+P0004962,DRV-004,late,received 60–1800 seconds after event time
+P0004963,DRV-004,late,received 60–1800 seconds after event time
+P0004964,DRV-004,late,received 60–1800 seconds after event time
+P0004965,DRV-004,late,received 60–1800 seconds after event time
+P0004966,DRV-001,late,received 60–1800 seconds after event time
+P0004985,DRV-003,noise_offroad,500.0 m from nearest road
+P0004996,DRV-003,duplicate_conflict,coordinate jitter 22.9 m
+P0005012,DRV-003,duplicate_exact,exact copy; received 29 seconds after original
+P0005043,DRV-003,noise_speed,on-road 900 m jump in five seconds
+P0005068,DRV-003,noise_speed,on-road 900 m jump in five seconds
+P0005075,DRV-003,duplicate_exact,exact copy; received 22 seconds after original
+P0005080,DRV-003,noise_offroad,500.0 m from nearest road
+P0005167,DRV-003,duplicate_exact,exact copy; received 11 seconds after original
+P0005169,DRV-003,duplicate_conflict,coordinate jitter 6.2 m
+P0005173,DRV-003,late,received 60–1800 seconds after event time
+P0005178,DRV-003,late,received 60–1800 seconds after event time
+P0005181,DRV-003,late,received 60–1800 seconds after event time
+P0005193,DRV-003,noise_offroad,500.0 m from nearest road
+P0005200,DRV-003,late,received 60–1800 seconds after event time
+P0005201,DRV-003,duplicate_exact,exact copy; received 9 seconds after original
+P0005222,DRV-003,noise_speed,on-road 900 m jump in five seconds
+P0005233,DRV-003,late,received 60–1800 seconds after event time
+P0005248,DRV-003,duplicate_exact,exact copy; received 6 seconds after original
+P0005253,DRV-003,duplicate_conflict,coordinate jitter 19.8 m
+P0005295,DRV-003,late,received 60–1800 seconds after event time
+P0005296,DRV-003,late,received 60–1800 seconds after event time
+P0005298,DRV-003,noise_offroad,500.0 m from nearest road
+P0005301,DRV-003,late,received 60–1800 seconds after event time
+P0005313,DRV-003,noise_offroad,500.0 m from nearest road
+P0005317,DRV-003,late,received 60–1800 seconds after event time
+P0005325,DRV-003,late,received 60–1800 seconds after event time
+P0005335,DRV-003,late,received 60–1800 seconds after event time
+P0005337,DRV-003,duplicate_exact,exact copy; received 28 seconds after original
+P0005341,DRV-003,late,received 60–1800 seconds after event time
+P0005342,DRV-003,late,received 60–1800 seconds after event time
+P0005343,DRV-003,late,received 60–1800 seconds after event time
+P0005344,DRV-003,late,received 60–1800 seconds after event time
+P0005353,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0005359,DRV-005,duplicate_conflict,coordinate jitter 26.8 m
+P0005366,DRV-005,noise_offroad,500.0 m from nearest road
+P0005374,DRV-005,duplicate_exact,exact copy; received 4 seconds after original
+P0005411,DRV-005,late,received 60–1800 seconds after event time
+P0005417,DRV-005,duplicate_exact,exact copy; received 27 seconds after original
+P0005421,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0005424,DRV-005,duplicate_conflict,coordinate jitter 25.9 m
+P0005447,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0005453,DRV-005,duplicate_exact,exact copy; received 25 seconds after original
+P0005460,DRV-005,duplicate_exact,exact copy; received 5 seconds after original
+P0005473,DRV-005,noise_offroad,500.0 m from nearest road
+P0005491,DRV-005,duplicate_exact,exact copy; received 4 seconds after original
+P0005493,DRV-005,noise_offroad,500.0 m from nearest road
+P0005495,DRV-005,noise_offroad,500.0 m from nearest road
+P0005502,DRV-005,noise_offroad,500.0 m from nearest road
+P0005544,DRV-005,duplicate_conflict,coordinate jitter 29.7 m
+P0005546,DRV-005,duplicate_exact,exact copy; received 9 seconds after original
+P0005549,DRV-005,noise_offroad,500.0 m from nearest road
+P0005550,DRV-005,duplicate_conflict,coordinate jitter 14.1 m
+P0005558,DRV-005,late,received 60–1800 seconds after event time
+P0005560,DRV-005,late,received 60–1800 seconds after event time
+P0005570,DRV-005,noise_offroad,500.0 m from nearest road
+P0005581,DRV-005,duplicate_exact,exact copy; received 23 seconds after original
+P0005590,DRV-005,duplicate_conflict,coordinate jitter 7.8 m
+P0005604,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0005617,DRV-005,duplicate_conflict,coordinate jitter 29.5 m
+P0005625,DRV-005,duplicate_exact,exact copy; received 28 seconds after original
+P0005630,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0005644,DRV-005,late,received 60–1800 seconds after event time
+P0005654,DRV-005,late,received 60–1800 seconds after event time
+P0005657,DRV-005,noise_offroad,500.0 m from nearest road
+P0005690,DRV-005,late,received 60–1800 seconds after event time
+P0005693,DRV-005,late,received 60–1800 seconds after event time
+P0005698,DRV-005,late,received 60–1800 seconds after event time
+P0005701,DRV-005,duplicate_exact,exact copy; received 16 seconds after original
+P0005706,DRV-005,duplicate_exact,exact copy; received 1 seconds after original
+P0005720,DRV-005,duplicate_conflict,coordinate jitter 14.0 m
+P0005727,DRV-005,noise_offroad,500.0 m from nearest road
+P0005729,DRV-005,late,received 60–1800 seconds after event time
+P0005730,DRV-005,late,received 60–1800 seconds after event time
+P0005731,DRV-005,late,received 60–1800 seconds after event time
+P0005732,DRV-005,late,received 60–1800 seconds after event time
+P0005733,DRV-005,late,received 60–1800 seconds after event time
+P0005734,DRV-005,late,received 60–1800 seconds after event time
+P0005735,DRV-005,late,received 60–1800 seconds after event time
+P0005736,DRV-005,late,received 60–1800 seconds after event time
+P0005764,DRV-002,duplicate_conflict,coordinate jitter 6.8 m
+P0005770,DRV-002,duplicate_exact,exact copy; received 21 seconds after original
+P0005779,DRV-002,duplicate_conflict,coordinate jitter 22.2 m
+P0005784,DRV-002,duplicate_exact,exact copy; received 13 seconds after original
+P0005817,DRV-002,duplicate_exact,exact copy; received 21 seconds after original
+P0005833,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0005836,DRV-002,noise_speed,on-road 900 m jump in five seconds
+P0005843,DRV-002,noise_speed,on-road 900 m jump in five seconds
+P0005856,DRV-005,duplicate_exact,exact copy; received 4 seconds after original
+P0005875,DRV-002,noise_offroad,500.0 m from nearest road
+P0005887,DRV-002,late,received 60–1800 seconds after event time
+P0005890,DRV-002,duplicate_exact,exact copy; received 29 seconds after original
+P0005897,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0005916,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0005917,DRV-005,duplicate_exact,exact copy; received 29 seconds after original
+P0005922,DRV-002,noise_speed,on-road 900 m jump in five seconds
+P0005955,DRV-005,duplicate_exact,exact copy; received 6 seconds after original
+P0005980,DRV-002,noise_offroad,500.0 m from nearest road
+P0005983,DRV-002,late,received 60–1800 seconds after event time
+P0005986,DRV-005,duplicate_exact,exact copy; received 12 seconds after original
+P0005998,DRV-002,duplicate_conflict,coordinate jitter 7.9 m
+P0006002,DRV-002,duplicate_conflict,coordinate jitter 17.1 m
+P0006006,DRV-005,late,received 60–1800 seconds after event time
+P0006025,DRV-005,duplicate_conflict,coordinate jitter 28.6 m
+P0006028,DRV-002,late,received 60–1800 seconds after event time
+P0006034,DRV-002,duplicate_exact,exact copy; received 20 seconds after original
+P0006035,DRV-002,late,received 60–1800 seconds after event time
+P0006045,DRV-002,duplicate_exact,exact copy; received 20 seconds after original
+P0006047,DRV-005,noise_offroad,500.0 m from nearest road
+P0006087,DRV-002,duplicate_exact,exact copy; received 6 seconds after original
+P0006090,DRV-002,late,received 60–1800 seconds after event time
+P0006096,DRV-005,late,received 60–1800 seconds after event time
+P0006102,DRV-005,duplicate_exact,exact copy; received 19 seconds after original
+P0006122,DRV-005,late,received 60–1800 seconds after event time
+P0006131,DRV-005,late,received 60–1800 seconds after event time
+P0006134,DRV-005,noise_offroad,500.0 m from nearest road
+P0006145,DRV-002,noise_speed,on-road 900 m jump in five seconds
+P0006151,DRV-005,late,received 60–1800 seconds after event time
+P0006158,DRV-005,late,received 60–1800 seconds after event time
+P0006161,DRV-005,noise_speed,on-road 900 m jump in five seconds
+P0006168,DRV-005,late,received 60–1800 seconds after event time
+P0006171,DRV-002,duplicate_conflict,coordinate jitter 18.4 m
+P0006181,DRV-005,duplicate_exact,exact copy; received 26 seconds after original
+P0006182,DRV-002,duplicate_exact,exact copy; received 17 seconds after original
+P0006185,DRV-005,noise_offroad,500.0 m from nearest road
+P0006188,DRV-005,late,received 60–1800 seconds after event time
+P0006193,DRV-005,duplicate_exact,exact copy; received 19 seconds after original
+P0006214,DRV-002,noise_offroad,500.0 m from nearest road
+P0006217,DRV-002,late,received 60–1800 seconds after event time
+P0006220,DRV-002,noise_speed,on-road 900 m jump in five seconds
+P0006229,DRV-002,late,received 60–1800 seconds after event time
+P0006236,DRV-002,noise_speed,on-road 900 m jump in five seconds
+P0006249,DRV-005,late,received 60–1800 seconds after event time
+P0006253,DRV-005,late,received 60–1800 seconds after event time
+P0006266,DRV-002,late,received 60–1800 seconds after event time
+P0006279,DRV-002,late,received 60–1800 seconds after event time
+P0006284,DRV-005,late,received 60–1800 seconds after event time
+P0006299,DRV-005,late,received 60–1800 seconds after event time
+P0006314,DRV-005,late,received 60–1800 seconds after event time
+P0006315,DRV-002,late,received 60–1800 seconds after event time

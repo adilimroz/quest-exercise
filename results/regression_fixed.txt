@@ -1,0 +1,23 @@
+> Synthetic data, fictional scenario. Assessment exercise only.
+Implementation: fixed
+
+test_conflicting_duplicate_keeps_earliest_received (__main__.GPSRegressionTests.test_conflicting_duplicate_keeps_earliest_received) ... ok
+test_driver_totals_match_truth (__main__.GPSRegressionTests.test_driver_totals_match_truth) ... ok
+test_exact_duplicate_counts_once (__main__.GPSRegressionTests.test_exact_duplicate_counts_once) ... ok
+test_full_dataset_matches_truth_per_driver_day (__main__.GPSRegressionTests.test_full_dataset_matches_truth_per_driver_day) ... ok
+test_late_ping_uses_event_timestamp (__main__.GPSRegressionTests.test_late_ping_uses_event_timestamp) ... ok
+test_offroad_noise_is_ignored (__main__.GPSRegressionTests.test_offroad_noise_is_ignored) ... ok
+test_offroad_threshold_is_strict (__main__.GPSRegressionTests.test_offroad_threshold_is_strict) ... ok
+test_ping_exactly_at_local_midnight_starts_new_day (__main__.GPSRegressionTests.test_ping_exactly_at_local_midnight_starts_new_day) ... ok
+test_segment_is_split_at_local_midnight (__main__.GPSRegressionTests.test_segment_is_split_at_local_midnight) ... ok
+test_speed_noise_is_ignored (__main__.GPSRegressionTests.test_speed_noise_is_ignored) ... ok
+test_speeds_below_and_above_threshold (__main__.GPSRegressionTests.test_speeds_below_and_above_threshold) ... ok
+test_utc_midnight_still_uses_local_date (__main__.GPSRegressionTests.test_utc_midnight_still_uses_local_date) ... ok
+test_zone_boundary_counts_as_inside (__main__.GPSRegressionTests.test_zone_boundary_counts_as_inside) ... ok
+test_zone_entry_is_clipped (__main__.GPSRegressionTests.test_zone_entry_is_clipped) ... ok
+test_zone_exit_is_clipped (__main__.GPSRegressionTests.test_zone_exit_is_clipped) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.181s
+
+OK

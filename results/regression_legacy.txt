@@ -1,0 +1,240 @@
+> Synthetic data, fictional scenario. Assessment exercise only.
+Implementation: legacy
+
+test_conflicting_duplicate_keeps_earliest_received (__main__.GPSRegressionTests.test_conflicting_duplicate_keeps_earliest_received) ... FAIL
+test_driver_totals_match_truth (__main__.GPSRegressionTests.test_driver_totals_match_truth) ... FAIL
+test_exact_duplicate_counts_once (__main__.GPSRegressionTests.test_exact_duplicate_counts_once) ... FAIL
+test_full_dataset_matches_truth_per_driver_day (__main__.GPSRegressionTests.test_full_dataset_matches_truth_per_driver_day) ... FAIL
+test_late_ping_uses_event_timestamp (__main__.GPSRegressionTests.test_late_ping_uses_event_timestamp) ... FAIL
+test_offroad_noise_is_ignored (__main__.GPSRegressionTests.test_offroad_noise_is_ignored) ... FAIL
+test_offroad_threshold_is_strict (__main__.GPSRegressionTests.test_offroad_threshold_is_strict) ... FAIL
+test_ping_exactly_at_local_midnight_starts_new_day (__main__.GPSRegressionTests.test_ping_exactly_at_local_midnight_starts_new_day) ... FAIL
+test_segment_is_split_at_local_midnight (__main__.GPSRegressionTests.test_segment_is_split_at_local_midnight) ... FAIL
+test_speed_noise_is_ignored (__main__.GPSRegressionTests.test_speed_noise_is_ignored) ... FAIL
+test_speeds_below_and_above_threshold (__main__.GPSRegressionTests.test_speeds_below_and_above_threshold) ... FAIL
+test_utc_midnight_still_uses_local_date (__main__.GPSRegressionTests.test_utc_midnight_still_uses_local_date) ... FAIL
+test_zone_boundary_counts_as_inside (__main__.GPSRegressionTests.test_zone_boundary_counts_as_inside) ... FAIL
+test_zone_entry_is_clipped (__main__.GPSRegressionTests.test_zone_entry_is_clipped) ... FAIL
+test_zone_exit_is_clipped (__main__.GPSRegressionTests.test_zone_exit_is_clipped) ... FAIL
+
+======================================================================
+FAIL: test_conflicting_duplicate_keeps_earliest_received (__main__.GPSRegressionTests.test_conflicting_duplicate_keeps_earliest_received)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_regression.py", line 165, in test_conflicting_duplicate_keeps_earliest_received
+    self.assert_scenario(rows, {(DRIVER, "2026-03-02"): expected})
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "tests/test_regression.py", line 118, in assert_scenario
+    self.assertAlmostEqual(actual.get(key, 0.0), expected.get(key, 0.0), delta=tolerance,
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           msg=f"{key}: expected {expected.get(key, 0.0):.6f} km, got {actual.get(key, 0.0):.6f} km")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0.22169 != 0.1997419190091303 within 2e-06 delta (0.0219480809908697 difference) : ('DRV-001', '2026-03-02'): expected 0.199742 km, got 0.221690 km
+
+======================================================================
+FAIL: test_driver_totals_match_truth (__main__.GPSRegressionTests.test_driver_totals_match_truth)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_regression.py", line 240, in test_driver_totals_match_truth
+    self.assertAlmostEqual(actual_totals[driver], expected_totals[driver], delta=TRUTH_TOLERANCE_KM,
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           msg=f"{driver}: driver total differs from independent truth")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 200.457309 != 67.900801 within 0.002 delta (132.556508 difference) : DRV-001: driver total differs from independent truth
+
+======================================================================
+FAIL: test_exact_duplicate_counts_once (__main__.GPSRegressionTests.test_exact_duplicate_counts_once)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_regression.py", line 158, in test_exact_duplicate_counts_once
+    self.assert_scenario(rows, {(DRIVER, "2026-03-02"): expected})
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "tests/test_regression.py", line 118, in assert_scenario
+    self.assertAlmostEqual(actual.get(key, 0.0), expected.get(key, 0.0), delta=tolerance,
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           msg=f"{key}: expected {expected.get(key, 0.0):.6f} km, got {actual.get(key, 0.0):.6f} km")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0.399417 != 0.19970827166647845 within 2e-06 delta (0.19970872833352157 difference) : ('DRV-001', '2026-03-02'): expected 0.199708 km, got 0.399417 km
+
+======================================================================
+FAIL: test_full_dataset_matches_truth_per_driver_day (__main__.GPSRegressionTests.test_full_dataset_matches_truth_per_driver_day)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_regression.py", line 221, in test_full_dataset_matches_truth_per_driver_day
+    self.assert_scenario(source, expected, tolerance=TRUTH_TOLERANCE_KM)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "tests/test_regression.py", line 118, in assert_scenario
+    self.assertAlmostEqual(actual.get(key, 0.0), expected.get(key, 0.0), delta=tolerance,
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           msg=f"{key}: expected {expected.get(key, 0.0):.6f} km, got {actual.get(key, 0.0):.6f} km")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 33.710597 != 0.0 within 0.002 delta (33.710597 difference) : ('DRV-001', '2026-03-01'): expected 0.000000 km, got 33.710597 km
+
+======================================================================
+FAIL: test_late_ping_uses_event_timestamp (__main__.GPSRegressionTests.test_late_ping_uses_event_timestamp)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_regression.py", line 172, in test_late_ping_uses_event_timestamp
+    self.assert_scenario(rows, {(DRIVER, "2026-03-02"): expected})
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "tests/test_regression.py", line 118, in assert_scenario
+    self.assertAlmostEqual(actual.get(key, 0.0), expected.get(key, 0.0), delta=tolerance,
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           msg=f"{key}: expected {expected.get(key, 0.0):.6f} km, got {actual.get(key, 0.0):.6f} km")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0.499271 != 0.29956240749741797 within 2e-06 delta (0.19970859250258205 difference) : ('DRV-001', '2026-03-02'): expected 0.299562 km, got 0.499271 km
+
+======================================================================
+FAIL: test_offroad_noise_is_ignored (__main__.GPSRegressionTests.test_offroad_noise_is_ignored)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_regression.py", line 126, in test_offroad_noise_is_ignored
+    self.assert_scenario(rows, {(DRIVER, "2026-03-02"): expected})
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "tests/test_regression.py", line 118, in assert_scenario
+    self.assertAlmostEqual(actual.get(key, 0.0), expected.get(key, 0.0), delta=tolerance,
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           msg=f"{key}: expected {expected.get(key, 0.0):.6f} km, got {actual.get(key, 0.0):.6f} km")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1.108616 != 0.19970827166647845 within 2e-06 delta (0.9089077283335216 difference) : ('DRV-001', '2026-03-02'): expected 0.199708 km, got 1.108616 km
+
+======================================================================
+FAIL: test_offroad_threshold_is_strict (__main__.GPSRegressionTests.test_offroad_threshold_is_strict)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_regression.py", line 140, in test_offroad_threshold_is_strict
+    self.assert_scenario(ordered_arrival(rows), {("DRV-001", "2026-03-02"): expected,
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                  ("DRV-002", "2026-03-02"): 0.0})
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "tests/test_regression.py", line 118, in assert_scenario
+    self.assertAlmostEqual(actual.get(key, 0.0), expected.get(key, 0.0), delta=tolerance,
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           msg=f"{key}: expected {expected.get(key, 0.0):.6f} km, got {actual.get(key, 0.0):.6f} km")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0.201773 != 0.0 within 2e-06 delta (0.201773 difference) : ('DRV-002', '2026-03-02'): expected 0.000000 km, got 0.201773 km
+
+======================================================================
+FAIL: test_ping_exactly_at_local_midnight_starts_new_day (__main__.GPSRegressionTests.test_ping_exactly_at_local_midnight_starts_new_day)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_regression.py", line 184, in test_ping_exactly_at_local_midnight_starts_new_day
+    self.assert_scenario(rows, {(DRIVER, "2026-03-02"): one, (DRIVER, "2026-03-03"): one})
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "tests/test_regression.py", line 118, in assert_scenario
+    self.assertAlmostEqual(actual.get(key, 0.0), expected.get(key, 0.0), delta=tolerance,
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           msg=f"{key}: expected {expected.get(key, 0.0):.6f} km, got {actual.get(key, 0.0):.6f} km")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0.199708 != 0.09985413583093951 within 2e-06 delta (0.09985386416906049 difference) : ('DRV-001', '2026-03-02'): expected 0.099854 km, got 0.199708 km
+
+======================================================================
+FAIL: test_segment_is_split_at_local_midnight (__main__.GPSRegressionTests.test_segment_is_split_at_local_midnight)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_regression.py", line 191, in test_segment_is_split_at_local_midnight
+    self.assert_scenario(rows, {(DRIVER, "2026-03-02"): first, (DRIVER, "2026-03-03"): second})
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "tests/test_regression.py", line 118, in assert_scenario
+    self.assertAlmostEqual(actual.get(key, 0.0), expected.get(key, 0.0), delta=tolerance,
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           msg=f"{key}: expected {expected.get(key, 0.0):.6f} km, got {actual.get(key, 0.0):.6f} km")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0.099854 != 0.04992706791336685 within 2e-06 delta (0.049926932086633145 difference) : ('DRV-001', '2026-03-02'): expected 0.049927 km, got 0.099854 km
+
+======================================================================
+FAIL: test_speed_noise_is_ignored (__main__.GPSRegressionTests.test_speed_noise_is_ignored)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_regression.py", line 133, in test_speed_noise_is_ignored
+    self.assert_scenario(rows, {(DRIVER, "2026-03-02"): expected})
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "tests/test_regression.py", line 118, in assert_scenario
+    self.assertAlmostEqual(actual.get(key, 0.0), expected.get(key, 0.0), delta=tolerance,
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           msg=f"{key}: expected {expected.get(key, 0.0):.6f} km, got {actual.get(key, 0.0):.6f} km")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1.797374 != 0.19970827166647845 within 2e-06 delta (1.5976657283335216 difference) : ('DRV-001', '2026-03-02'): expected 0.199708 km, got 1.797374 km
+
+======================================================================
+FAIL: test_speeds_below_and_above_threshold (__main__.GPSRegressionTests.test_speeds_below_and_above_threshold)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_regression.py", line 150, in test_speeds_below_and_above_threshold
+    self.assert_scenario(ordered_arrival(rows), {("DRV-001", "2026-03-02"): expected,
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                  ("DRV-002", "2026-03-02"): 0.0})
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "tests/test_regression.py", line 118, in assert_scenario
+    self.assertAlmostEqual(actual.get(key, 0.0), expected.get(key, 0.0), delta=tolerance,
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           msg=f"{key}: expected {expected.get(key, 0.0):.6f} km, got {actual.get(key, 0.0):.6f} km")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0.418833 != 0.0 within 2e-06 delta (0.418833 difference) : ('DRV-002', '2026-03-02'): expected 0.000000 km, got 0.418833 km
+
+======================================================================
+FAIL: test_utc_midnight_still_uses_local_date (__main__.GPSRegressionTests.test_utc_midnight_still_uses_local_date)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_regression.py", line 178, in test_utc_midnight_still_uses_local_date
+    self.assert_scenario(rows, {(DRIVER, "2026-03-03"): expected})
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "tests/test_regression.py", line 118, in assert_scenario
+    self.assertAlmostEqual(actual.get(key, 0.0), expected.get(key, 0.0), delta=tolerance,
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           msg=f"{key}: expected {expected.get(key, 0.0):.6f} km, got {actual.get(key, 0.0):.6f} km")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0.099854 != 0.0 within 2e-06 delta (0.099854 difference) : ('DRV-001', '2026-03-02'): expected 0.000000 km, got 0.099854 km
+
+======================================================================
+FAIL: test_zone_boundary_counts_as_inside (__main__.GPSRegressionTests.test_zone_boundary_counts_as_inside)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_regression.py", line 210, in test_zone_boundary_counts_as_inside
+    self.assert_scenario(ordered_arrival(outside_to_edge + edge_to_inside), {
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        ("DRV-001", "2026-03-02"): 0.0,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        ("DRV-002", "2026-03-02"): expected_inside,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    })
+    ^^
+  File "tests/test_regression.py", line 118, in assert_scenario
+    self.assertAlmostEqual(actual.get(key, 0.0), expected.get(key, 0.0), delta=tolerance,
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           msg=f"{key}: expected {expected.get(key, 0.0):.6f} km, got {actual.get(key, 0.0):.6f} km")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0.0 != 0.09985413583093951 within 2e-06 delta (0.09985413583093951 difference) : ('DRV-002', '2026-03-02'): expected 0.099854 km, got 0.000000 km
+
+======================================================================
+FAIL: test_zone_entry_is_clipped (__main__.GPSRegressionTests.test_zone_entry_is_clipped)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_regression.py", line 197, in test_zone_entry_is_clipped
+    self.assert_scenario(rows, {(DRIVER, "2026-03-02"): expected})
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "tests/test_regression.py", line 118, in assert_scenario
+    self.assertAlmostEqual(actual.get(key, 0.0), expected.get(key, 0.0), delta=tolerance,
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           msg=f"{key}: expected {expected.get(key, 0.0):.6f} km, got {actual.get(key, 0.0):.6f} km")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0.0 != 0.09985413583093951 within 2e-06 delta (0.09985413583093951 difference) : ('DRV-001', '2026-03-02'): expected 0.099854 km, got 0.000000 km
+
+======================================================================
+FAIL: test_zone_exit_is_clipped (__main__.GPSRegressionTests.test_zone_exit_is_clipped)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_regression.py", line 203, in test_zone_exit_is_clipped
+    self.assert_scenario(rows, {(DRIVER, "2026-03-02"): expected})
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "tests/test_regression.py", line 118, in assert_scenario
+    self.assertAlmostEqual(actual.get(key, 0.0), expected.get(key, 0.0), delta=tolerance,
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           msg=f"{key}: expected {expected.get(key, 0.0):.6f} km, got {actual.get(key, 0.0):.6f} km")
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0.199708 != 0.09985413583323922 within 2e-06 delta (0.09985386416676077 difference) : ('DRV-001', '2026-03-02'): expected 0.099854 km, got 0.199708 km
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.093s
+
+FAILED (failures=15)

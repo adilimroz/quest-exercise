@@ -1,0 +1,5 @@
+Synthetic truth convergence: PASS
+Base substeps: 2000
+Comparison substeps: 8000
+Maximum driver-day difference: 0.000091033 km
+Tolerance: 0.002000000 km
